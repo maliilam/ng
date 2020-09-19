@@ -1,5 +1,4 @@
-# Todo
-https://www.youtube.com/watch?v=Fdf5aTYRW0E 
+# TodoNg
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
 
@@ -14,6 +13,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+To build all scripts into subfolder:
+    ng build --output-path="dist/scripts" --deployUrl="scripts/"
+    move "dist\scripts\index.html" "dist"
 
 ## Running unit tests
 

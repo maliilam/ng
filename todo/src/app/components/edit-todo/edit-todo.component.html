@@ -1,0 +1,5 @@
+<input [(ngModel)]="title" type="text" name="title" placeholder="Type title of todo..." />
+<button (click)="onConfirm()" [disabled]="!title" [title]="title ? '' : 'Type title first'">
+    {{okLabel}}
+</button>
+<button (click)="onCancel()" [hidden]="!todo">Cancel</button>

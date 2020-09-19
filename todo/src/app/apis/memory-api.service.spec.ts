@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TodoService } from './todo.service';
+import { MemoryApiService } from './memory-api.service';
 
-describe('TodoService', () => {
-  let service: TodoService;
+describe('MemoryApiService', () => {
+  let service: MemoryApiService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(TodoService);
+    service = TestBed.inject(MemoryApiService);
   });
 
   it('should be created', () => {

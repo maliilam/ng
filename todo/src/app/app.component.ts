@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeComponent } from './components/home/home.component';
 
 @Component({
   selector: 'app-root',
@@ -6,13 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo';
-  name:string = "ma";
-  constructor() {
-    this.changeName("ml")
-    console.log("construct.")
-  }
-  changeName(name:string):void {
-    this.name = name;
-  }
+  title = 'TodoNg';
 }
